@@ -61,10 +61,12 @@
     coffeeImage.setAttribute('src', 'static/coffee_beans.jpg');
     // use this JavaScript object in further study step
 
+
     // run immediately when user clicks coffee beans img
     function makingCoffee(){
         coffeeImage.setAttribute('src', 'static/coffee_machine.jpg');
     }
+
 
     // run 1500 ms after user clicks
     function makeCoffee() {
@@ -80,8 +82,6 @@
             coffeeImage.setAttribute('src', 'static/coffee_beans.jpg')
         }, 4000);
     }
-
-
 
 
     coffeeImage.addEventListener('click', makingCoffee);
