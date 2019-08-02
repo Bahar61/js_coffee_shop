@@ -61,6 +61,12 @@
     coffeeImage.setAttribute('src', 'static/coffee_beans.jpg');
     // use this JavaScript object in further study step
 
+    function makeCoffee(){
+        coffeeImage.setAttribute('src', 'static/coffee_mug.jpg');
+    }
+
+    coffeeImage.addEventListener('click', makeCoffee);
+
     const prices = {
       'brew': 2.05,
       'espresso': 3.25,
